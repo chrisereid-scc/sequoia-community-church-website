@@ -126,6 +126,8 @@ a:hover { color: var(--green); }
     top: 72px;
     left: 0;
     right: 0;
+    max-height: calc(100vh - 72px);
+    overflow-y: auto;
     background: var(--cream);
     border-bottom: 1px solid var(--border);
     flex-direction: column;
