@@ -301,6 +301,26 @@ a:hover { color: var(--green); }
   font-weight: 700;
 }
 
+/* Leadership photos */
+.team-photo {
+  margin: 0 auto;
+  max-width: 980px;
+}
+.team-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+.person .avatar-photo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  padding: 0;
+}
+
 /* Belief list */
 .belief-list {
   list-style: none;
